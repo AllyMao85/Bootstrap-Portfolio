@@ -1,0 +1,138 @@
+
+
+ html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    background-image: url("images/naturalwhite.png");
+    margin-bottom: 100px;
+    font-family: 'Arial','Helvetica Neue', Helvetica, sans-serif;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    /* width: 100%; */
+    background-color: #666666;
+    border-top:8px solid #4aaaa5;
+    height: 100px;
+    
+    text-align:center;
+    padding-top:30px;
+  } 
+nav {
+    background:white;
+    /* margin-bottom:20px; */
+}
+
+
+
+a {
+	/* font-size: 16px; */
+	color: grey;
+}
+
+#profilename {
+	background-color:#4aaaa5;
+	border-color:#cccccc;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	text-align:center;
+	color: white;
+    font-size: 30px;
+    font-weight:bold;
+    float:left;
+	
+}
+
+.maincontents {
+    border: 1px solid #cccccc;
+    border-radius:12px;
+	padding: 20px 10px;
+	font-size: 20px;
+    height: auto;
+    margin-top:30px;
+    background-color:white;
+    overflow:auto;
+}
+
+.sidebar {
+    border: 1px solid #cccccc;
+    border-radius:12px;
+	padding: 20px 10px;
+	text-align:center;
+    height: auto;
+    margin-top:30px;
+    background-color:white;
+}
+
+.conpic {
+    width: 80%;
+}
+
+
+
+hr {
+    background-color: #cccccc !important;
+    color: #cccccc !important;
+    border: solid 1.5px #cccccc !important;
+    height: 2px !important;
+    
+}
+
+h3 {
+	color:#4aaaa5;
+	font-weight:bold;
+	font-size:24px;
+}
+.introduction {
+	font-size: 20px;
+    color:#777777;
+    text-align:left;
+    /* font-family: 'Arial','Helvetica Neue', Helvetica, sans-serif; */
+
+}
+
+
+  .luhanpic {
+      float:left;
+      margin-right: 10px;
+      margin-bottom: 10px;
+  }
+
+  /* Below are css for photo gallery page */
+
+div.gallery {
+	position: relative;
+	z-index:2;
+    margin: 20px 15px;
+    overflow-y: auto;
+    float: left;
+    
+}
+
+div.gallery img {
+	
+    width: 260px;
+    height: auto;
+}
+
+div.desc {
+	position: absolute;
+	z-index:1;
+    width:280px;
+	text-align: center;
+	padding-top: 8px;
+	left:-10px;
+	top:120px;
+	height:35px;
+	color:white;
+	font-weight:bold;
+	background-color:#4aaaa5;
+	
+
+}
+/* 
+label {
+    display:inline;
+} */
